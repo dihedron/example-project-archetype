@@ -1,0 +1,7 @@
+{{ if eq .Name "Marco" }}
+Questo è per Marco!
+{{ else if eq .Name "Alessandro" }}
+Questo è per Alessandro
+{{ else }}
+Questo è il default
+{{ end }}
