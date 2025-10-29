@@ -1,4 +1,4 @@
-{{ range . -}} 
-  * Name : {{ .Name | yellow }} 
-  * Value: {{ .Value | yellow }}
+{{ range $key, $value := . }}
+  * Name : {{ $key | yellow }} 
+  * Value: {{ $value | yellow }}
 {{ end }}
