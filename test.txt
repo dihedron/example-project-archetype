@@ -1,0 +1,4 @@
+{{ range . -}} 
+  * Name : {{ .Name | yellow }} 
+  * Value: {{ .Value | yellow }}
+{{ end }}
