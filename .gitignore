@@ -31,4 +31,6 @@ go.work.sum
 # .idea/
 # .vscode/
 
-.archetype/
+.archetype/output/
+.archetype/settings.yml
+
