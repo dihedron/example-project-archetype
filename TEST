@@ -1,4 +1,4 @@
-{{- if eq .Project.License "MIT" -}}
+{{- if eq .License "MIT" -}}
 MIT License
 {{- else if eq .License "AGPLv3" -}}
 AGPL v3.0.0 or later
