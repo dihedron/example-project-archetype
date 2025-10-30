@@ -1,18 +1,18 @@
 version: 1
 parameters:
-  - name: License
+  License:
     description: The license for the project
     type: string
     default: MIT
-  - name: Author
+  Author:
     description: The author of the project
     type: string
     default: Andrea Funtò
-  - name: Copyright Year
+  Copyright Year:
     description: The copyright year for the project
     type: string
     default: "2025"
-  - name: Project
+  Project:
     description: The project details
     type: map[string]any
     default:
@@ -21,9 +21,9 @@ parameters:
       Description: An example project generated from an archetype  
       Repository: github.com/dihedron/example-project
       Module Path: github.com/dihedron/example-project
-  - name: Compiler
+  Compiler:
     description: The compiler settings
-    type: map
+    type: map[string]any
     default:
       Name: golang
       Version: 1.25.3
