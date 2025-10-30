@@ -1,4 +1,4 @@
-module {{ index . "Project.Module Path" }}
+module {{ index . "Project" "Module Path" }}
 
 go {{ index . "Golang compiler version" }}
 
