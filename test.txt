@@ -1,4 +1,4 @@
+PARAMETERS:
 {{ range $key, $value := . }}
-  * Name : {{ $key | yellow }} 
-  * Value: {{ $value | yellow }}
+  {{ $key }} => {{ $value }}
 {{ end }}

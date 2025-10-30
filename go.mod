@@ -1,6 +1,6 @@
 module {{ index . "Project" "Module Path" }}
 
-go {{ index . "Golang compiler version" }}
+go {{ index . "Compiler" "Version" }}
 
 require github.com/jessevdk/go-flags v1.6.1
 

@@ -1,6 +1,6 @@
-# {{ index . "Project Name"}}
+# {{ index . "Project" "Name"}}
 
-{{ index . "Project Description" }}
+{{ index . "Project" "Description" }}
 
 ## How to build
 
