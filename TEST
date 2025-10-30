@@ -1,9 +1,7 @@
-{{ with index . "Project"}}
-{{if eq .License "MIT" }}
+{{- if eq .Project.License "MIT" -}}
 MIT License
-{{ else if eq .License "AGPLv3" }}
+{{- else if eq .License "AGPLv3" -}}
 AGPL v3.0.0 or later
-{{ else }}
+{{- else -}}
 Default license
-{{ end }}
 {{ end }}
