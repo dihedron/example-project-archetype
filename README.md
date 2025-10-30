@@ -30,4 +30,4 @@ They will each have different contents.
 
 ## How to see the logs
 
-In order to enable the logs, export or set the `{{- index . "Name" | upper -}}_LOG_LEVEL=d` environment variable.
+In order to enable the logs, export or set the `{{- index . "Name" -}}_LOG_LEVEL=d` environment variable.
