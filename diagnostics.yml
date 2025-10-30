@@ -1,2 +1,3 @@
-parameters:
-{{ range $key, $value := . }}  {{ $key }}: {{ $value }}{{ end }}
+parameters:{{ range $key, $value := . }}  
+{{ $key }}: {{ $value }}
+{-{ end }}
